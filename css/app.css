@@ -57,6 +57,17 @@ select {
   font: inherit;
 }
 
+.text
+{
+  color: white;
+
+  text-align: center;
+  font-size: 18pt;
+  padding-bottom: 2rem;
+
+  background-image:url("../img/ginevra-austine-tER9lXuV2yM-unsplash.jpg");
+}
+
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
