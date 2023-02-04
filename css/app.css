@@ -57,76 +57,12 @@ select {
   font: inherit;
 }
 
-
-body
-{
-  text-align: center;
-  color: #AFA;
-}
-
-.mainContent
-{
-  background-image:url("../img/ginevra-austine-tER9lXuV2yM-unsplash.jpg");
-
-  background-position: 0rem -25rem;
-  background-size: 175rem;
-
-  border-radius: 25px;
-
-  margin: 1rem;
-}
-
-.title
-{
-  font-family: 'Aboreto', cursive;
-
-  border: 5px ridge orange;
-  border-radius: 25px;
-
-  padding: 1rem;
-  margin-top: 1rem;
-}
-
-.text
-{
-  font-size: 20pt;
-
-  font-family: 'Marck Script', cursive;
-
-  border: 5px ridge orange;
-  border-radius: 25px;
-
-  padding: 1rem;
-  margin-top: 1rem;
-}
-
-.credits
-{
-  font-family: 'Aboreto', cursive;
-
-  border: 5px ridge orange;
-  border-radius: 25px;
-
-  padding: 1rem;
-  margin-top: 1rem;
-}
-
-a
-{
-  color: #0FF;
-}
-
-a:visited
-{
-  color: #099;
-}
-
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -135,4 +71,45 @@ a:visited
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* My Styles */
+
+/* My reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #AFA;
+  background-image: url("../img/ginevra-austine-tER9lXuV2yM-unsplash.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.mainContent {}
+
+.title {
+  font-family: 'Marck Script', cursive;
+}
+
+.text {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.credits {
+  font-family: 'Libre Baskerville', serif;
+}
+
+a {
+  color: #0FF;
+}
+
+a:visited {
+  color: #099;
 }
